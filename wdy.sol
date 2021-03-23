@@ -3,7 +3,7 @@ pragma solidity ^0.8.2;
 contract wdy {
     mapping (address => uint256) public balances;
     mapping (address => mapping(address => uint256)) public allowance;
-    uint256 public totalSupply = 10000 * 10 ** 18;
+    uint256 public totalSupply = 1000000000 * 10 ** 18;  // 1 Billion tokens with 18 bits 
     string public name = "Wednesday";
     string public symbol = "WDY";
     uint256 public decimals = 18;
